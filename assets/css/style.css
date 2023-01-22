@@ -418,7 +418,7 @@ footer p {
 /* ==== Scroll arrow ==== */
 #scroll-arrow {
     position: fixed;
-    bottom: 3.5rem;
+    bottom: 3rem;
     right: 2.5rem;
     width: 40px;
     height: 40px;

@@ -1,4 +1,4 @@
-// Modo estrito
+// Strict mode
 "use strict"
 
 // Normal scroll
