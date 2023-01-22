@@ -1,0 +1,75 @@
+@media screen and (max-width: 980px) {
+    header {
+        padding: 17px 3%;
+        transition: 0.4s;
+    }
+
+    header.sticky {
+        padding: 14px 3%;
+        transition: 0.4s;
+    }
+
+    section {
+        padding: 80px 3%;
+    }
+
+    .home {
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 120vh;
+        background-color: #edfff1;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 30px;
+        transition: 0.42s ease;
+    }
+
+    .navbar li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .navbar a {
+        display: block;
+    }
+
+    .navbar.active {
+        right: 0;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .home-text h1 {
+        font-size: 45px;
+    }
+    
+    #scroll-arrow {
+        right: 2rem;
+        bottom: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav-icons i {
+        display: none;
+    }
+    
+    .products-content {
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    }
+    
+    .update-content {
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    }
+}
